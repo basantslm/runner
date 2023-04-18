@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Runner</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div id="startGame" style="display: block">
+        <h1>Runner</h1>
+        <script src="script.js">startGame()</script>
+        <button onclick="gameLoop()">Start Game</button>
+        <p>Use the right and left key buttons to move your avatar through the black holes</p>
+    </div>
+
+    <div id="game" style ="display: none">
+        <div id="character"></div>
+    </div>
+    <div>
+        <audio src = "gameAudio.wav" id = "audio"></audio>
+    </div>
+<script src="script.js"></script>
+</html>
+
+
+
+</body>
